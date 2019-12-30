@@ -1,17 +1,23 @@
 import React, { Component } from "react";
-import Home from "./Home";
-import Name from "./Name";
-import City from "./City";
+// import Home from "./Home";
+// import Name from "./Name";
+// import City from "./City";
+import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
     render() {
        return (
           <nav>
-            {/* <h3>Logo</h3>   */}
-            <ul>
-                <li component={Home}>Home</li>
-                <li component={Name}>Brewery By Name</li>
-                <li component={City}>Brewery By City</li>
+            <ul className="nav-links">
+                <Link to="/">
+                <li>Home</li>
+                </Link>
+                <Link to="/Name">
+                <li>Brewery by Name</li>
+                </Link>
+                <Link to="/City">
+                <li>Brewery by City</li>
+                </Link>
             </ul>
 
           </nav>

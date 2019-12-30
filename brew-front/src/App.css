@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+h1{
+  color:blue;
+}
 .nav-links{
   list-style-type: none;
+  float: left;
+  text-decoration: none;
+}
+body {
+    
+}
+#id {
+    font-size: 50px;
 }
