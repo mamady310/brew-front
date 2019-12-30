@@ -3,7 +3,7 @@ import './App.css';
 import Home from "./Home"
 import Name from "./Name"
 import City from "./City"
-import { Route, Link, Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 class App extends Component {
 render () {
@@ -12,14 +12,12 @@ render () {
       <header>
           <h1>Virginia Beer and Brewery</h1>
         <nav>
-        <div className="nav">
             <ul className="list">
             <li>Home</li>
             <li>Brewery By Name</li>
             <li>Brewery By City</li>
             </ul>
             {this.props.children}
-         </div>
         </nav>
         <main>
         </main>
