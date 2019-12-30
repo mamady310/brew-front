@@ -1,5 +1,6 @@
 .App {
   text-align: center;
 }
-
-
+.list{
+  list-style-type: none;
+}

@@ -13,7 +13,7 @@ render () {
           <h1>Virginia Beer and Brewery</h1>
         <nav>
         <div className="nav">
-            <ul>
+            <ul className="list">
             <li>Home</li>
             <li>Brewery By Name</li>
             <li>Brewery By City</li>
