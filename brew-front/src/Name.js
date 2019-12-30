@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-class Home extends React.Component {
+class Name extends React.Component {
     render() {
        return (
           <div>
-             <h1>Home...</h1>
+             <h1>Name...</h1>
           </div>
        )
     }
  }
- export default Home;
+ export default Name;
