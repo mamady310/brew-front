@@ -8,6 +8,19 @@ import Nav from "./Nav";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 class App extends Component {
+  constructor (){
+    super ()
+ this.state = {
+    nameData: []
+ }
+ };
+
+ async componentDidMount() {
+  const url = "http://localhost:5000/";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log(data);
+  }
 render () {
   return (
  <Router>
