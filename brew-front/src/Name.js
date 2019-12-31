@@ -10,12 +10,12 @@ class Name extends React.Component {
     const response = await fetch(url);
     const data = await response.json();
     console.log(data);
-    
+
     }
     render() {
       return (
          <div>
-            <h1>Name</h1>
+            <h1>Brewery by Name</h1>
          </div>
       );
    }
