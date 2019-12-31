@@ -1,10 +1,10 @@
 import React, { Component } from "react";
+// import React from "react";
 import './App.css';
 import Home from "./Home";
 import Name from "./Name";
 import City from "./City";
 import Nav from "./Nav";
-import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 class App extends Component {

@@ -1,7 +1,5 @@
-import React, { Component } from "react";
-// import Home from "./Home";
-// import Name from "./Name";
-// import City from "./City";
+// import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
